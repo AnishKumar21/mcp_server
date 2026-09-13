@@ -29,4 +29,8 @@ def multiply(a:int, b:int)->int:
     """
     return a*b
 
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
+    #mode of transportation for this service is standard input and output it will not be accessed from internet from cmd only
+
 
